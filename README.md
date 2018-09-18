@@ -1,5 +1,5 @@
 # Reddit-Thread-Comment-Filter
-An extension to the the website Reddit that filters and hides negative comments from being viewed.
+#An extension to the the website Reddit that filters and hides negative comments from being viewed.
 #CS2302
 #Elijah Gabriel Kalani Pele
 #Lab 1
@@ -11,7 +11,6 @@ An extension to the the website Reddit that filters and hides negative comments 
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import praw
-import timeit
 
 #The code below will allow simple access to Reddit's API. This will be used to retrieve the Reddit posts' comment trees.
 reddit = praw.Reddit(client_id= 'YWB3gI1yuzWUfQ',
